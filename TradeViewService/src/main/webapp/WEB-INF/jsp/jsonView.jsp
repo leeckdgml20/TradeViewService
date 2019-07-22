@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <%@ page import="org.json.simple.parser.JSONParser" %>
 <%
 	int statusCd = response.getStatus();
@@ -7,12 +7,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title></title>
 </head>
 <body>
-	<form action="/" method="get">
-		<input type="submit" value="ë’¤ë¡œ"></input>
+	<form action="/main" method="get">
+		<input type="submit" value="µÚ·Î"></input>
 	</form>
 	<textarea id="jsonArea" style="width: 100%" readonly="readonly" disabled></textarea>
 	<script>

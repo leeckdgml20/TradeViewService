@@ -10,8 +10,6 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +35,7 @@ public class CommonController {
 	public CommonController() {
 		
 	}
-    @RequestMapping("/")
+    @RequestMapping("/main")
     public @ResponseBody ModelAndView root_test() throws Exception{
     	ModelAndView mav = new ModelAndView("main");
     	return mav;
@@ -156,8 +154,8 @@ public class CommonController {
 		List<AccountVo> accounts = (List<AccountVo>) cmmnService.getResource("데이터_계좌정보.csv","AccountVo");
 		List<ManagementVo> managements = (List<ManagementVo>) cmmnService.getResource("데이터_관리점정보.csv","ManagementVo");
 		managements.removeIf(x->x.getMngCd().equals("B"));
-		Optional<ManagementVo> optionalVo= managements.stream().filter(x->x.getMngNm().equals(mngNm)).findFirst();
 		
+		Optional<ManagementVo> optionalVo= managements.stream().filter(x->x.getMngNm().equals(mngNm)).findFirst();
 		ModelAndView mav = new ModelAndView("jsonView");
 		if(!optionalVo.isPresent()) {
 			JSONObject jsonObject = new JSONObject();
