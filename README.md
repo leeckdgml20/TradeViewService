@@ -8,19 +8,23 @@ Maven 3
 ### 소스 내려받기
 > $ git clone https://github.com/leeckdgml20/TradeViewService
 
-### 실행방법
+### 설치 방법
 * Root 이동
 > $ cd TradeViewService
 
 * 컴파일
 > $ mvn compile
 
-* 실행
-> $ mvn spring-boot:run
-
-* 단위테스트
-> $ mvn test
-
 * 패키징
 > $ mvn package
 
+### 실행 방법
+* WAS 실행
+> $ mvn spring-boot:run
+> $ java -jar target/TradeViewService-1.0.war
+
+* 단위 테스트
+> $ mvn test
+
+* Client 접속
+> http://localhost:8080/main
