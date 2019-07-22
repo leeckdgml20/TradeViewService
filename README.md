@@ -39,4 +39,3 @@ $ mvn test
 * Client 접속
 > http://localhost:8080/main
 
-#### 문제 해결방법
