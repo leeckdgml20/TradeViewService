@@ -6,21 +6,21 @@ JDK 1.8
 Maven 3
 
 ### 소스 내려받기
-git clone https://github.com/leeckdgml20/TradeViewService
+> $ git clone https://github.com/leeckdgml20/TradeViewService
 
 ### 실행방법
 * Root 이동
-- cd TradeViewService
+> $ cd TradeViewService
 
 * 컴파일
-- mvn compile
+> $ mvn compile
 
 * 실행
-- mvn spring-boot:run
+> $ mvn spring-boot:run
 
 * 단위테스트
-- mvn test
+> $ mvn test
 
 * 패키징
-- mvn package
+> $ mvn package
 
