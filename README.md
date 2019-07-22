@@ -30,7 +30,7 @@ $ mvn package
 ### 실행 방법
 - WAS 실행
 ```sh
-$ mvn spring-boot:run</br>
+$ mvn spring-boot:run
 $ java -jar target/TradeViewService-1.0.war
 ```
 - 단위 테스트
