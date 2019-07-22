@@ -10,32 +10,32 @@ Maven 3
 IDE Spring Tool Suite 4
 
 ### 소스 내려받기
-'''sh
+```sh
 $ git clone https://github.com/leeckdgml20/TradeViewService
-'''
+```
 ### 설치 방법
 * Root 이동
-'''sh
+```sh
 $ cd TradeViewService
-'''
+```
 * 컴파일
-'''sh
+```sh
 $ mvn compile
-'''
+```
 * 패키징
-'''sh
+```sh
 $ mvn package
-'''
+```
 ### 실행 방법
 * WAS 실행
-'''sh
+```sh
 $ mvn spring-boot:run</br>
 $ java -jar target/TradeViewService-1.0.war
-'''
+```
 * 단위 테스트
-'''sh
+```sh
 $ mvn test
-'''
+```
 * Client 접속
 > http://localhost:8080/main
 
