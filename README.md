@@ -9,7 +9,7 @@ Maven 3
 git clone https://github.com/leeckdgml20/TradeViewService
 
 ### 실행방법
-* Root 이동
+1 첫 번째 Root 이동
 - cd TradeViewService
 
 * 컴파일
