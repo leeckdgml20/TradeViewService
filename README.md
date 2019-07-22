@@ -20,7 +20,7 @@ Maven 3
 
 ### 실행 방법
 * WAS 실행
-> $ mvn spring-boot:run
+> $ mvn spring-boot:run</br>
 > $ java -jar target/TradeViewService-1.0.war
 
 * 단위 테스트
