@@ -1,10 +1,14 @@
 # 거래 내역 조회 서비스 (TradeViewService)
+거래내역, 고객, 지점정보 데이터를 토대로 요구사항에 맞는 서비스를 제공.
 
 ### 버전
 빌드 및 실행 환경
 JDK 1.8
 Maven 3
 
+### 개발 프레임워크
+IDE Spring Tool Suite 4
+```sh
 ### 소스 내려받기
 > $ git clone https://github.com/leeckdgml20/TradeViewService
 
@@ -25,6 +29,8 @@ Maven 3
 
 * 단위 테스트
 > $ mvn test
-
+```
 * Client 접속
 > http://localhost:8080/main
+
+#### 문제 해결방법
