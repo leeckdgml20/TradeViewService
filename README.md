@@ -2,18 +2,19 @@
 거래내역, 고객, 지점정보 데이터를 토대로 요구사항에 맞는 서비스를 제공.
 
 ### 버전
-빌드 및 실행 환경
-JDK 1.8
+#### 빌드 및 실행 환경
+JDK 1.8 </br>
 Maven 3
 
-### 개발 프레임워크
-IDE Spring Tool Suite 4
+#### 개발 프레임워크
+Spring Tool Suite 4
 
-### 소스 내려받기
+### 실행
+#### 소스 내려받기
 ```sh
 $ git clone https://github.com/leeckdgml20/TradeViewService
 ```
-### 설치 방법
+#### 설치 방법
 * Root 이동
 ```sh
 $ cd TradeViewService
@@ -26,7 +27,7 @@ $ mvn compile
 ```sh
 $ mvn package
 ```
-### 실행 방법
+#### 실행 방법
 * WAS 실행
 ```sh
 $ mvn spring-boot:run</br>
